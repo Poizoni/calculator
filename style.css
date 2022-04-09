@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  button {
+    font-size: 15px;
+    display: flex;
+    flex: 1;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #8e8e8e;
+    background-color: #ccc;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 9px #999;
+    font-family: sans-serif;
+  }
+  
+  button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  #split {
+    display: flex;
+    flex: 1;
+    margin-top: 12px;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  #container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #DEDEDE;
+  
+  }
+  
+  #top {
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  #txtresult {
+    display: flex;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #ccc;
+    border: none;
+    font-size: 50px;
+    font-family: 'M PLUS 1p', sans-serif;
+    text-align: right;
+    padding-right: 10px;
+    color: #8e8e8e;
+  
+  }
+  
+  #txtresult:hover {
+    background-color: #bfbfbf;
+    box-shadow: none;
+    border-color: transparent;
+  
+  }
+  
+  #txtresult:focus {
+    outline: 2px solid grey;
+    box-shadow: none;
+    border-color: transparent;
+  }
+  
+  #buttons {
+    display: flex;
+    flex: 3;
+    margin: 5px;
+  }
+  
+  .row {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .button {
+    display: flex;
+    flex: 1;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 10px;
+  
+  }
+  
+  #reset {
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #8e8e8e;
+    background-color: #ccc;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 9px #999;
+    font-family: sans-serif;
+  }
+  
+  #reset:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
